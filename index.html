@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: azure ;
+        }
+h1 {
+    text-align: center;
+}
+h2{
+    margin: 10px 0;
+}
+.mental{
+    max-width: 800;
+    margin: 20px 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 gray;
+}
+.producti{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1px;
+    align-items: center;
+    margin: 10px 0;
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+}
+#feedback{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(121, 11, 83, 0.285);
+    padding: 10pxs;
+    display: none;
+    color: white;
+}
+#totalprice{
+text-align: right;
+}
+    </style>
+
+</head>
+<body>
+    <div class="mental">
+        <p id="feedback"></p>
+    <h1>online shopping</h1>
+    <h2>available products</h2>
+    <div  id="pci">
+
+    </div>
+    <h2>my cart iems</h2>
+    <div id="rak">
+    </div>
+    <h3 id="totalprice"></h3>
+    <h2>Actions</h2>
+    <button id="sort">sort by cart</button>
+    <button id="clearcort">clear cort</button>
+
+    </div>
+    <script src="ravi.js"></script>
+</body>
+</html>
