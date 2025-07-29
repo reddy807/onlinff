@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        
+        body{
             margin: 0;
             padding: 0;
-
-        }
-        body{
+            font-family: arial, sans-serif;
             background-color: azure ;
         }
 h1 {
@@ -21,7 +20,7 @@ h2{
 }
 .mental{
     max-width: 800;
-    margin: 20px 200px;
+    margin: 20px auto;
     padding: 30px;
     background-color: white;
     border-radius: 5px;
@@ -57,6 +56,12 @@ button:hover{
 #totalprice{
 text-align: right;
 }
+@media (max-width: 600px) {
+      .producti {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
     </style>
 
 </head>
@@ -74,7 +79,7 @@ text-align: right;
     <h3 id="totalprice"></h3>
     <h2>Actions</h2>
     <button id="sort">sort by cart</button>
-    <button id="clearcort">clear cort</button>
+    <button id="clearcort">clear  thecort</button>
 
     </div>
     <script src="ravi.js"></script>
